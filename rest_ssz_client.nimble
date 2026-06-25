@@ -11,3 +11,6 @@ bin           = @["rest_ssz_client"]
 # Dependencies
 
 requires "nim >= 2.2.10"
+requires "presto"
+requires "ssz_serialization"
+requires "serialization"
