@@ -2,13 +2,13 @@ import chronos
 import presto/client
 import results
 
-import rest_ssz_client
+import rest_client
 import ssz_helpers
 import types/containers
 import types/blobs/v4
 
 export results, containers, v4
-export rest_ssz_client
+export rest_client
 
 const
   JsonMediaType = "application/json"
